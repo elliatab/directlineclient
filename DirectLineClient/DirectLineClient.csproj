@@ -36,6 +36,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="pushpackage.cmd" />
+    <None Include="createpackage.cmd" />
+    <None Include="DirectLineClient.nuspec" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
